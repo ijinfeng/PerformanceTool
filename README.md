@@ -22,7 +22,7 @@ pod 'PerformanceTool'
 
 ## Author
 
-ijinfeng, feng.jin@haihuman.cn
+ijinfeng, 851406283@qq.com
 
 ## License
 

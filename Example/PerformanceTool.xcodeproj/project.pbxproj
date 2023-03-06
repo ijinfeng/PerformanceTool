@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004405315F308675330F6C62 /* PerformanceTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PerformanceTool.podspec; path = ../PerformanceTool.podspec; sourceTree = "<group>"; };
-		105577E9D3B2C950ABE1B3A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		004405315F308675330F6C62 /* PerformanceTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PerformanceTool.podspec; path = ../PerformanceTool.podspec; sourceTree = "<group>"; };
+		105577E9D3B2C950ABE1B3A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3E06E8B4BEE2D81F01B338F2 /* Pods-PerformanceTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerformanceTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-PerformanceTool_Example/Pods-PerformanceTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PerformanceTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DC8BD45437067D592C4AC99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9DC8BD45437067D592C4AC99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A8A1ED138B4FD76DDE8FFC30 /* Pods-PerformanceTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerformanceTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-PerformanceTool_Tests/Pods-PerformanceTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB9074F2947183F54E5E0FE9 /* Pods_PerformanceTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerformanceTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB334D7BD3CFA583C0B1CFA6 /* Pods-PerformanceTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerformanceTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PerformanceTool_Tests/Pods-PerformanceTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				BB334D7BD3CFA583C0B1CFA6 /* Pods-PerformanceTool_Tests.debug.xcconfig */,
 				A8A1ED138B4FD76DDE8FFC30 /* Pods-PerformanceTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ijinfeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M69DRNUMV4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 3E06E8B4BEE2D81F01B338F2 /* Pods-PerformanceTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M69DRNUMV4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PerformanceTool/PerformanceTool-Prefix.pch";
 				INFOPLIST_FILE = "PerformanceTool/PerformanceTool-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = D94ED45E6373B30DB913DFDE /* Pods-PerformanceTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M69DRNUMV4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PerformanceTool/PerformanceTool-Prefix.pch";
 				INFOPLIST_FILE = "PerformanceTool/PerformanceTool-Info.plist";

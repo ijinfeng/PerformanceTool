@@ -1,0 +1,22 @@
+{
+  "name": "PerformanceTool",
+  "version": "0.1.0",
+  "summary": "A short description of PerformanceTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ijinfeng/PerformanceTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ijinfeng": "feng.jin@haihuman.cn"
+  },
+  "source": {
+    "git": "https://github.com/ijinfeng/PerformanceTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PerformanceTool/Classes/**/*"
+}

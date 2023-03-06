@@ -1,0 +1,16 @@
+PODS:
+  - PerformanceTool (0.1.0)
+
+DEPENDENCIES:
+  - PerformanceTool (from `../`)
+
+EXTERNAL SOURCES:
+  PerformanceTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PerformanceTool: d5ee83abcad606efa45fbe4f23094dacd21dba8d
+
+PODFILE CHECKSUM: 5dd3b503e72092fba48822070afad8804854ba7e
+
+COCOAPODS: 1.11.3

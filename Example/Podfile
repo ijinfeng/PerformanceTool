@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PerformanceTool_Example' do
+  pod 'PerformanceTool', :path => '../'
+
+  target 'PerformanceTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

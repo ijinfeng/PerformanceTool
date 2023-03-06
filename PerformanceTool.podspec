@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PerformanceTool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'APP性能检测器'
 
 # This description is used to generate tags and improve search results.

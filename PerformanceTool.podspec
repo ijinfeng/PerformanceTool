@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PerformanceTool'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'APP性能检测器'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ APP性能检测器
   s.source           = { :git => 'https://github.com/ijinfeng/PerformanceTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'PerformanceTool/Classes/**/*'
   

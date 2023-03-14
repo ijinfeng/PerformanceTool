@@ -45,9 +45,9 @@
         }
         [att insertAttributedString:[[NSAttributedString alloc] initWithString:@"CPU："] atIndex:0];
     } else if (self.optional == IAPerformanceOptionalFPS) {
-        if (value <= 60) {
+        if (value >= 60) {
             [att addAttribute:NSForegroundColorAttributeName value:[UIColor greenColor] range:NSMakeRange(0, string.length - self.suffix.length)];
-        } else if (value <= 80) {
+        } else if (value <= 40) {
             [att addAttribute:NSForegroundColorAttributeName value:[UIColor orangeColor] range:NSMakeRange(0, string.length - self.suffix.length)];
         } else {
             [att addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(0, string.length - self.suffix.length)];
